@@ -17,6 +17,7 @@ config.gpu_options.allow_growth = True
 sess = tf.Session(config=config)  # if tf2, can use tf.compat.v1.Session()
 
 # set path
+# you should set the corresponding path here
 TRAIN_VAL_PATH = 'F:/data/sjtu-ee228-2020/train_val/train_val'
 TRAIN_VAL_INFO = 'F:/data/sjtu-ee228-2020/train_val.csv'
 TEST_PATH = 'F:/data/sjtu-ee228-2020/test/test'
