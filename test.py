@@ -11,8 +11,9 @@ config.gpu_options.allow_growth = True
 sess = tf.Session(config=config)  # if tf2, can use tf.compat.v1.Session()
 
 # set path
-TEST_PATH = 'F:/data/sjtu-ee228-2020/test/test'  # your test data dir
-TEST_INFO = 'F:/data/sjtu-ee228-2020/sampleSubmission.csv'  # your test data info csv file
+# you should set the corresponding path here
+TEST_PATH = 'datasets/test'  # your test data dir
+TEST_INFO = 'sampleSubmission.csv'  # your test data info csv file
 MODEL_PATH1 = 'weights/weights.1.h5'
 MODEL_PATH2 = 'weights/weights.2.h5'
 
