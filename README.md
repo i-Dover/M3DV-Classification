@@ -14,7 +14,7 @@ This is a classification project for pulmonary nodules. We need to train and eva
     * [`train_val/`](datasets/train_val/): Training dataset.
     * [`test/`](datasets/test/): Test dataset.
     * [`train_val.csv`](datasets/train_val.csv): Labels of training dataset.
-    * ***Note**: The dataset is not available publicly, so I don't get all the training and test data, just two samples are provided for demoing ,one in train_val and another in test.*
+    * ***Note**: The dataset is not available publicly, so I don't give all the training and test data, just two samples are provided for demoing, one in train_val and another in test.*
 * [`sampleSubmission.csv`](sampleSubmission.csv): A sample submission file.
 # Weight Files
 
