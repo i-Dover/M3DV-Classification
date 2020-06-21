@@ -21,6 +21,6 @@ This is a classification project for pulmonary nodules. We need to train and eva
 * [`weights/`](weights/): Containing some trained weight files.
 
 # Requirements
-* Python 3 (Anaconda 3 specifically)
+* Python 3.6 (Anaconda specifically)
 * TensorFlow==1.15.0
-* Keras==2.2.0
+* Keras==2.15.0
