@@ -7,6 +7,7 @@ import pandas as pd
 from keras.utils import to_categorical
 from utils import rotation, reflection, crop, random_center, reorder, resize, _triple, crop_at_zyx_with_dhw
 
+# you should set the corresponding path here
 TRAIN_INFO = 'F:/data/sjtu-ee228-2020/train_val.csv'
 TRAIN_NODULE_PATH = 'F:/data/sjtu-ee228-2020/train_val/train_val'
 TEST_INFO = 'F:/data/sjtu-ee228-2020/sampleSubmission.csv'
